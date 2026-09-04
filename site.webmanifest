@@ -1,0 +1,12 @@
+{
+  "name": "Service Ciro",
+  "short_name": "Service Ciro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b26",
+  "theme_color": "#070b26",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
