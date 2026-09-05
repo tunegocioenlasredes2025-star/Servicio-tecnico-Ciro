@@ -37,9 +37,13 @@ web/
   (bomba de vacío, soldador), la barra de confianza son cuatro promesas concretas en vez de
   números sueltos, y cada card de servicio lista los síntomas tal como los describe el
   cliente ("saca la ropa empapada", "el motor no para nunca"), no categorías abstractas.
-- La sección **"Contanos el síntoma"** existe porque el cliente en Google Ads busca por
-  problema ("mi heladera no enfría"), no por servicio. Cada tarjeta abre WhatsApp con el
-  mensaje ya escrito → se sabe por qué entró la consulta.
+- **Los síntomas están dentro de cada servicio, no en una sección aparte.** El cliente que
+  llega de Google Ads busca por problema ("mi heladera no enfría"), no por servicio, así que
+  cada síntoma es un enlace que abre WhatsApp con el mensaje ya escrito → se sabe por qué
+  entró cada consulta. Antes había una sección de síntomas separada: duplicaba el contenido
+  de las tarjetas y estiraba la página 2.000 px en celular.
+- **La página tiene que leerse rápido en el celular.** Es una landing de pauta, no un sitio
+  institucional: 6.500 px en mobile, no 12.000. Cada sección tiene que ganarse el lugar.
 - **Refrigeración comercial** tiene card propia: en el Instagram hay varios trabajos de
   heladera mostrador y cambio de compresor. Es el ticket más alto y casi nadie lo comunica.
 - El **aire acondicionado** es la card destacada (borde ámbar): en diciembre explota la
@@ -48,6 +52,12 @@ web/
   numeración, como una ficha técnica o una orden de trabajo. El recuadro redondeado flotante
   es el look de plantilla que tiene cualquier landing; acá no aparece. Los únicos paneles con
   fondo son los que de verdad lo necesitan: el formulario, la ficha de base operativa y las fotos.
+- **El hero es el isologo, no una foto.** Las fotos de Instagram son de celular y a tamaño
+  grande se ven de baja calidad; el logo original (500x500) a 168 px queda nítido en retina.
+  Las fotos siguen en la galería, que es donde funcionan.
+- **El motivo visual son las rayas diagonales del isologo.** Se usan como fondo del hero y
+  como franja separadora antes del contacto. Es lo único de la identidad que no tiene
+  cualquier otro servicio técnico.
 - Todas las fotos son trabajos reales del Instagram. Cero banco de imágenes.
 
 ## Pendientes antes de publicar

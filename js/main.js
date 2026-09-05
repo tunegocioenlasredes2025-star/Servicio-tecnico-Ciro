@@ -80,7 +80,6 @@
 
     var campos = [
       { el: form.elements.nombre, msg: 'Necesitamos tu nombre.' },
-      { el: form.elements.telefono, msg: 'Dejanos un teléfono para responderte.' },
       { el: form.elements.zona, msg: 'Contanos en qué localidad estás.' },
       { el: form.elements.equipo, msg: 'Elegí qué equipo es.' },
       { el: form.elements.detalle, msg: 'Contanos brevemente qué le pasa.' }
@@ -96,12 +95,6 @@
       }
     });
 
-    var tel = form.elements.telefono;
-    if (tel.value.trim() && tel.value.replace(/\D/g, '').length < 8) {
-      setError(tel, 'Revisá el teléfono, parece incompleto.');
-      if (!primerError) primerError = tel;
-    }
-
     if (primerError) {
       primerError.focus();
       return;
@@ -110,7 +103,6 @@
     var texto =
       'Hola Ciro, quiero pedir un presupuesto.\n\n' +
       'Nombre: ' + form.elements.nombre.value.trim() + '\n' +
-      'Teléfono: ' + form.elements.telefono.value.trim() + '\n' +
       'Zona: ' + form.elements.zona.value.trim() + '\n' +
       'Equipo: ' + form.elements.equipo.value + '\n' +
       'Problema: ' + form.elements.detalle.value.trim();
