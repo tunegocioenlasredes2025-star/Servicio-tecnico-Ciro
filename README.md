@@ -44,6 +44,10 @@ web/
   heladera mostrador y cambio de compresor. Es el ticket más alto y casi nadie lo comunica.
 - El **aire acondicionado** es la card destacada (borde ámbar): en diciembre explota la
   demanda y ahí es donde conviene poner la pauta.
+- **Sin cajas.** Servicios, síntomas, FAQ y datos de contacto se arman con reglas finas y
+  numeración, como una ficha técnica o una orden de trabajo. El recuadro redondeado flotante
+  es el look de plantilla que tiene cualquier landing; acá no aparece. Los únicos paneles con
+  fondo son los que de verdad lo necesitan: el formulario, la ficha de base operativa y las fotos.
 - Todas las fotos son trabajos reales del Instagram. Cero banco de imágenes.
 
 ## Pendientes antes de publicar
