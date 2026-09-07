@@ -101,7 +101,7 @@
     }
 
     var texto =
-      'Hola Ciro, quiero pedir un presupuesto.\n\n' +
+      'Hola, quiero pedir un presupuesto.\n\n' +
       'Nombre: ' + form.elements.nombre.value.trim() + '\n' +
       'Zona: ' + form.elements.zona.value.trim() + '\n' +
       'Equipo: ' + form.elements.equipo.value + '\n' +
