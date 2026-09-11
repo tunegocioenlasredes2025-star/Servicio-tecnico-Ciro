@@ -4,7 +4,8 @@
 (function () {
   'use strict';
 
-  var WHATSAPP = '5491170332439';
+  // WhatsApp va al 11 2872-4860; las llamadas, al 11 7033-2439
+  var WHATSAPP = '5491128724860';
 
   /* ---------- año del footer ---------- */
   var year = document.getElementById('year');

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Service Ciro | Reparación de heladeras, aires y lavarropas a domicilio — CABA y Zona Oeste</title>
-<meta name="description" content="Servicio técnico a domicilio de heladeras, aires acondicionados, lavarropas y lavavajillas. 20 años de oficio, todas las marcas, repuestos originales y 90 días de garantía escrita. CABA, Zona Oeste y Zona Sur.">
+<title>Service Ciro | Reparación de heladeras, lavarropas y aires a domicilio — CABA y Zona Oeste</title>
+<meta name="description" content="Servicio técnico a domicilio de heladeras, lavarropas y aires acondicionados. 20 años de oficio, todas las marcas, repuestos originales y 90 días de garantía escrita. CABA y Zona Oeste.">
 <meta name="theme-color" content="#070b26">
 <link rel="canonical" href="https://serviceciro.com.ar/">
 
@@ -12,9 +12,9 @@
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="Service Ciro">
 <meta property="og:url" content="https://serviceciro.com.ar/">
-<meta property="og:title" content="Service Ciro | Servicio técnico a domicilio de heladeras, aires y lavarropas">
-<meta property="og:description" content="Diagnóstico y reparación en el día. 20 años de oficio, todas las marcas y 90 días de garantía escrita. CABA, Zona Oeste y Zona Sur.">
-<meta property="og:image" content="https://serviceciro.com.ar/assets/heladera-compresor.webp">
+<meta property="og:title" content="Service Ciro | Servicio a domicilio de refrigeración">
+<meta property="og:description" content="Reparación de heladeras, lavarropas y aires acondicionados. Arreglos en el día, 90 días de garantía escrita. CABA y Zona Oeste.">
+<meta property="og:image" content="https://serviceciro.com.ar/assets/trabajo-heladera-uniforme.webp">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
@@ -33,12 +33,17 @@
   "@id": "https://serviceciro.com.ar/#business",
   "name": "Service Ciro — Servicio Técnico Ciro",
   "alternateName": "Servicio Técnico Ciro",
-  "description": "Servicio técnico a domicilio de heladeras, freezers, aires acondicionados, lavarropas y lavavajillas. Todas las marcas, repuestos originales y garantía escrita de 90 días.",
+  "description": "Servicio técnico a domicilio de heladeras, lavarropas y aires acondicionados. Todas las marcas, repuestos originales y nacionales, y garantía escrita de 90 días.",
   "url": "https://serviceciro.com.ar/",
   "telephone": "+5491170332439",
-  "image": "https://serviceciro.com.ar/assets/logo-hero.webp",
+  "contactPoint": [
+    { "@type": "ContactPoint", "telephone": "+5491170332439", "contactType": "customer service", "description": "Llamadas" },
+    { "@type": "ContactPoint", "telephone": "+5491128724860", "contactType": "customer service", "description": "WhatsApp" }
+  ],
+  "image": "https://serviceciro.com.ar/assets/trabajo-heladera-uniforme.webp",
   "logo": "https://serviceciro.com.ar/assets/icon-512.png",
   "priceRange": "$$",
+  "paymentAccepted": "Efectivo, Transferencia",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Federico García Lorca 4175",
@@ -49,8 +54,7 @@
   },
   "areaServed": [
     { "@type": "City", "name": "Ciudad Autónoma de Buenos Aires" },
-    { "@type": "AdministrativeArea", "name": "Zona Oeste del Gran Buenos Aires" },
-    { "@type": "AdministrativeArea", "name": "Zona Sur del Gran Buenos Aires" }
+    { "@type": "AdministrativeArea", "name": "Zona Oeste del Gran Buenos Aires" }
   ],
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "19:00" },
@@ -58,17 +62,16 @@
   ],
   "sameAs": ["https://www.instagram.com/serviciotecnico_ciro"],
   "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación de heladeras y freezers" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación e instalación de aire acondicionado" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación de lavarropas y lavavajillas" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Refrigeración comercial" } }
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación y mantenimiento de heladeras" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reparación de lavarropas" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Instalación, reparación y mantenimiento de aires acondicionados" } }
   ]
 }
 </script>
 </head>
 <body>
 
-<a class="skip-link" href="#servicios">Saltar al contenido</a>
+<a class="skip-link" href="#reparamos">Saltar al contenido</a>
 
 <header class="header" id="header">
   <div class="wrap header__inner">
@@ -81,19 +84,19 @@
     </a>
 
     <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#reparamos">Reparamos</a>
       <a href="#servicios">Servicios</a>
-      <a href="#como">Cómo trabajamos</a>
-      <a href="#zonas">Zonas</a>
       <a href="#trabajos">Trabajos</a>
+      <a href="#zonas">Zonas</a>
       <a href="#contacto">Contacto</a>
     </nav>
 
     <div class="header__actions">
-      <a class="btn btn--ghost btn--tel" href="tel:+5491170332439">
+      <a class="btn btn--ghost btn--tel" href="tel:+5491170332439" data-cta="header-tel">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.58 3.6a1 1 0 01-.25 1z"/></svg>
         11 7033-2439
       </a>
-      <a class="btn btn--wa" href="https://wa.me/5491170332439?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener" data-cta="header">
+      <a class="btn btn--wa" href="https://wa.me/5491128724860?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener" data-cta="header">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.6 14.1c-.24.67-1.4 1.28-1.94 1.32-.5.04-.98.22-3.3-.69-2.78-1.1-4.55-3.94-4.69-4.13-.13-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29a1 1 0 01.73-.34h.52c.17 0 .4-.06.62.48.24.58.8 2 .87 2.14.07.14.12.31.02.5-.1.19-.15.31-.29.47l-.44.51c-.14.14-.29.3-.13.59.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.42.28.14.45.12.62-.07.17-.19.71-.83.9-1.12.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.21.55.33.07.11.07.67-.17 1.34z"/></svg>
         <span class="btn__label">WhatsApp</span>
       </a>
@@ -110,208 +113,185 @@
   <section class="hero">
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="wrap hero__inner">
-      <img class="hero__logo" src="assets/logo-hero.webp" alt="Service Ciro" width="500" height="500" fetchpriority="high">
-      <p class="eyebrow"><span class="dot"></span> Ituzaingó · 20 años en el oficio</p>
-      <h1>¿No enfría, hace ruido<br>o <span class="hl">pierde agua</span>?</h1>
-      <p class="lead">
-        Servicio técnico a domicilio de heladeras, aires, lavarropas y lavavajillas.
-        Vamos con las herramientas y los repuestos comunes cargados, así
-        <strong>la mayoría se resuelve en la misma visita</strong>.
-      </p>
+      <div class="hero__copy">
+        <img class="hero__logo" src="assets/logo-hero.webp" alt="" width="500" height="500">
+        <p class="eyebrow"><span class="dot"></span> Ituzaingó · 20 años en el oficio</p>
+        <h1>Servicio técnico Ciro</h1>
+        <p class="hero__sub">Servicio a domicilio de refrigeración</p>
+        <p class="lead">
+          Heladeras, lavarropas y aires acondicionados. ¿No enfría, hace ruido o pierde agua?
+          Vamos a tu casa con los repuestos comunes cargados, así
+          <strong>la mayoría se resuelve en la misma visita</strong>.
+        </p>
 
-      <div class="hero__cta">
-        <a class="btn btn--wa btn--lg" href="https://wa.me/5491170332439?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico.%20Mi%20equipo%20es%3A%20" target="_blank" rel="noopener" data-cta="hero">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.6 14.1c-.24.67-1.4 1.28-1.94 1.32-.5.04-.98.22-3.3-.69-2.78-1.1-4.55-3.94-4.69-4.13-.13-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29a1 1 0 01.73-.34h.52c.17 0 .4-.06.62.48.24.58.8 2 .87 2.14.07.14.12.31.02.5-.1.19-.15.31-.29.47l-.44.51c-.14.14-.29.3-.13.59.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.42.28.14.45.12.62-.07.17-.19.71-.83.9-1.12.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.21.55.33.07.11.07.67-.17 1.34z"/></svg>
-          Escribinos por WhatsApp
-        </a>
-        <a class="btn btn--outline btn--lg" href="tel:+5491170332439" data-cta="hero-tel">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.58 3.6a1 1 0 01-.25 1z"/></svg>
-          Llamar ahora
-        </a>
+        <div class="hero__cta">
+          <a class="btn btn--wa btn--lg" href="https://wa.me/5491128724860?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico.%20Mi%20equipo%20es%3A%20" target="_blank" rel="noopener" data-cta="hero">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.6 14.1c-.24.67-1.4 1.28-1.94 1.32-.5.04-.98.22-3.3-.69-2.78-1.1-4.55-3.94-4.69-4.13-.13-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29a1 1 0 01.73-.34h.52c.17 0 .4-.06.62.48.24.58.8 2 .87 2.14.07.14.12.31.02.5-.1.19-.15.31-.29.47l-.44.51c-.14.14-.29.3-.13.59.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.42.28.14.45.12.62-.07.17-.19.71-.83.9-1.12.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.21.55.33.07.11.07.67-.17 1.34z"/></svg>
+            Escribinos por WhatsApp
+          </a>
+          <a class="btn btn--outline btn--lg" href="tel:+5491170332439" data-cta="hero-tel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.58 3.6a1 1 0 01-.25 1z"/></svg>
+            Llamar ahora
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__photos">
+        <figure class="hero__photo hero__photo--main">
+          <img src="assets/trabajo-heladera-uniforme.webp" alt="Técnico de Service Ciro, con el uniforme de la empresa, revisando una heladera en un domicilio" width="904" height="1200" fetchpriority="high">
+        </figure>
+        <figure class="hero__photo">
+          <img src="assets/trabajo-manometros.webp" alt="Manómetros conectados al sistema de frío de una heladera durante una carga de gas" width="902" height="1200">
+        </figure>
+        <figure class="hero__photo">
+          <img src="assets/trabajo-compresor.webp" alt="Técnico soldando la cañería del compresor de una heladera" width="880" height="1200">
+        </figure>
       </div>
     </div>
     <div class="stripe" aria-hidden="true"></div>
   </section>
 
-  <!-- TRUST BAR -->
-  <section class="trust" aria-label="Cómo trabajamos">
-    <div class="wrap trust__grid">
-      <div class="trust__item">
-        <span class="trust__ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M12 2l8 3.5v6c0 4.6-3.2 8.7-8 10.5-4.8-1.8-8-5.9-8-10.5v-6L12 2zm-1.2 13.4l6-6-1.5-1.5-4.5 4.5-2.1-2.1L7.2 12l3.6 3.4z"/></svg>
-        </span>
-        <strong>90 días por escrito</strong>
-        <span class="trust__lbl">La garantía te queda en papel, junto con la factura.</span>
-      </div>
-      <div class="trust__item">
-        <span class="trust__ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M12 2l9 4.2v11.6L12 22l-9-4.2V6.2L12 2zm0 2.2L5.6 7.2 12 10.1l6.4-2.9L12 4.2zM5 9v7.5l6 2.8v-7.5L5 9zm14 0l-6 2.8v7.5l6-2.8V9z"/></svg>
-        </span>
-        <strong>Repuesto original</strong>
-        <span class="trust__lbl">Originales y nacionales, nada de genéricos truchos.</span>
-      </div>
-      <div class="trust__item">
-        <span class="trust__ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M5 3h14a1 1 0 011 1v17l-3-2-3 2-3-2-3 2-3-2V4a1 1 0 011-1zm2 4v2h10V7H7zm0 4v2h10v-2H7zm0 4v2h6v-2H7z"/></svg>
-        </span>
-        <strong>Presupuesto antes</strong>
-        <span class="trust__lbl">Te decimos qué tiene y cuánto sale. Si no te sirve, no se hace.</span>
-      </div>
-      <div class="trust__item">
-        <span class="trust__ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 015 5 5 5 0 01-5 5 5 5 0 01-5-5 5 5 0 015-5zm0 12c4.4 0 8 2 8 4.5V22H4v-3.5C4 16 7.6 14 12 14z"/></svg>
-        </span>
-        <strong>Vamos identificados</strong>
-        <span class="trust__lbl">Uniforme de la empresa. Sabés quién entra a tu casa.</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICIOS -->
-  <section class="section" id="servicios">
+  <!-- REPARAMOS -->
+  <section class="section" id="reparamos">
     <div class="wrap">
       <header class="shead">
-        <p class="eyebrow"><span class="dot"></span> Qué reparamos</p>
-        <h2>Lo que abrimos todos los días</h2>
-        <p class="shead__sub">Tocá tu síntoma y se abre WhatsApp con el mensaje ya escrito. No hace falta que sepas qué se rompió.</p>
+        <p class="eyebrow"><span class="dot"></span> Reparamos</p>
+        <h2>Heladeras, lavarropas y aires acondicionados</h2>
+        <p class="shead__sub">Tocá lo que le pasa a tu equipo y se abre WhatsApp con el mensaje ya escrito. No hace falta que sepas qué se rompió.</p>
       </header>
 
-      <div class="cards">
-        <article class="card">
-          <div class="card__head">
-            <span class="card__idx">01</span>
-            <span class="card__ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 012 2v16a2 2 0 01-2 2H7a2 2 0 01-2-2V4a2 2 0 012-2zm0 2v6h10V4H7zm0 8v8h10v-8H7zm1.5-6.5h1.5v3H8.5v-3zm0 8h1.5v3.5H8.5V13.5z"/></svg>
-            </span>
+      <div class="rubros">
+        <article class="rubro">
+          <figure class="rubro__img"><img src="assets/rubro-heladera.webp" alt="Heladera" loading="lazy"></figure>
+          <div class="rubro__body">
+            <h3>Heladeras</h3>
+            <p class="rubro__lead">Reparación y mantenimiento de heladeras</p>
+            <p>Realizamos diagnóstico y reparación de fallas en cambio de compresor, carga de gas, reparación de pérdidas, destape de cañerías, termostatos, plaquetas y más.</p>
+            <ul class="card__list">
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20heladera%20enfr%C3%ADa%20abajo%20pero%20no%20arriba." target="_blank" rel="noopener" data-cta="sintoma">Enfría abajo pero no arriba</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20el%20motor%20de%20mi%20heladera%20no%20para%20nunca." target="_blank" rel="noopener" data-cta="sintoma">El motor no para nunca</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20heladera%20hace%20un%20bloque%20de%20hielo%20o%20pierde%20agua." target="_blank" rel="noopener" data-cta="sintoma">Hace un bloque de hielo o pierde agua</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20heladera%20mostrador%20o%20exhibidora%20dej%C3%B3%20de%20dar%20fr%C3%ADo." target="_blank" rel="noopener" data-cta="sintoma">Mostrador o exhibidora de comercio</a></li>
+            </ul>
           </div>
-          <h3>Heladeras y freezers</h3>
-          <p>Cambio de compresor, carga de gas, destape de cañería, termostatos y plaquetas.</p>
-          <ul class="card__list">
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20heladera%20enfr%C3%ADa%20abajo%20pero%20no%20arriba." target="_blank" rel="noopener" data-cta="sintoma">Enfría abajo pero no arriba</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20el%20motor%20de%20mi%20heladera%20no%20para%20nunca." target="_blank" rel="noopener" data-cta="sintoma">El motor no para nunca</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20heladera%20hace%20un%20bloque%20de%20hielo%20o%20pierde%20agua." target="_blank" rel="noopener" data-cta="sintoma">Hace un bloque de hielo o pierde agua</a></li>
-          </ul>
         </article>
 
-        <article class="card card--accent">
-          <div class="card__head">
-            <span class="card__idx">02 <em class="card__tag">Temporada alta</em></span>
-            <span class="card__ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 011 1v6a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm1 2v4h16V7H4zm2 9h3a3 3 0 01-3 3v-3zm5 0h3a3 3 0 01-3 3v-3zm5 0h3a3 3 0 01-3 3v-3z"/></svg>
-            </span>
+        <article class="rubro">
+          <figure class="rubro__img"><img src="assets/rubro-lavarropas.webp" alt="Lavarropas" loading="lazy"></figure>
+          <div class="rubro__body">
+            <h3>Lavarropas</h3>
+            <p>Diagnosticamos y reparamos fallas en bombas de desagote, correas, rulemanes, plaquetas y otros componentes.</p>
+            <ul class="card__list">
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20lavarropas%20no%20centrifuga%20y%20saca%20la%20ropa%20empapada." target="_blank" rel="noopener" data-cta="sintoma">Saca la ropa empapada</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20lavarropas%20queda%20con%20agua%20y%20tira%20error." target="_blank" rel="noopener" data-cta="sintoma">Queda con agua y tira error</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20lavarropas%20camina%20o%20vibra%20al%20centrifugar." target="_blank" rel="noopener" data-cta="sintoma">Camina o vibra al centrifugar</a></li>
+            </ul>
           </div>
-          <h3>Aire acondicionado</h3>
-          <p>Instalación completa de split frío/calor, detección de pérdidas, recarga y limpieza.</p>
-          <ul class="card__list">
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20aire%20prende%20pero%20tira%20aire%20tibio." target="_blank" rel="noopener" data-cta="sintoma">Prende pero tira aire tibio</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20aire%20gotea%20adentro%20de%20la%20habitaci%C3%B3n." target="_blank" rel="noopener" data-cta="sintoma">Gotea adentro de la habitación</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20compr%C3%A9%20un%20aire%20y%20necesito%20instalarlo." target="_blank" rel="noopener" data-cta="sintoma">Lo compraste y falta instalarlo</a></li>
-          </ul>
-          <p class="card__note"><strong>Reservá antes de noviembre.</strong> Con el primer calor la agenda se llena en una semana.</p>
         </article>
 
-        <article class="card">
-          <div class="card__head">
-            <span class="card__idx">03</span>
-            <span class="card__ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M5 2h14a2 2 0 012 2v16a2 2 0 01-2 2H5a2 2 0 01-2-2V4a2 2 0 012-2zm7 6a6 6 0 100 12 6 6 0 000-12zm0 2.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zM6 4.5h2v2H6v-2zm4 0h2v2h-2v-2z"/></svg>
-            </span>
+        <article class="rubro rubro--accent">
+          <figure class="rubro__img"><img src="assets/rubro-aire.webp" alt="Aire acondicionado split" loading="lazy"></figure>
+          <div class="rubro__body">
+            <h3>Aire acondicionado <span class="card__tag">Temporada alta</span></h3>
+            <p class="rubro__lead">Instalación, reparación y mantenimiento de aires acondicionados frío/calor.</p>
+            <p>Realizamos instalaciones completas, detección y reparación de pérdidas, carga de gas, limpieza y mantenimientos.</p>
+            <ul class="card__list">
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20aire%20prende%20pero%20tira%20aire%20tibio." target="_blank" rel="noopener" data-cta="sintoma">Prende pero tira aire tibio</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20mi%20aire%20gotea%20adentro%20de%20la%20habitaci%C3%B3n." target="_blank" rel="noopener" data-cta="sintoma">Gotea adentro de la habitación</a></li>
+              <li><a href="https://wa.me/5491128724860?text=Hola%2C%20compr%C3%A9%20un%20aire%20y%20necesito%20instalarlo." target="_blank" rel="noopener" data-cta="sintoma">Lo compraste y falta instalarlo</a></li>
+            </ul>
+            <p class="card__note"><strong>Reservá antes de noviembre.</strong> Con el primer calor la agenda se llena en una semana.</p>
           </div>
-          <h3>Lavarropas y lavavajillas</h3>
-          <p>Bombas de desagote, correas, rulemanes, presostatos, programadores y plaquetas.</p>
-          <ul class="card__list">
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20lavarropas%20no%20centrifuga%20y%20saca%20la%20ropa%20empapada." target="_blank" rel="noopener" data-cta="sintoma">Saca la ropa empapada</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20lavarropas%20queda%20con%20agua%20y%20tira%20error." target="_blank" rel="noopener" data-cta="sintoma">Queda con agua y tira error</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20lavarropas%20camina%20o%20vibra%20al%20centrifugar." target="_blank" rel="noopener" data-cta="sintoma">Camina o vibra al centrifugar</a></li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card__head">
-            <span class="card__idx">04</span>
-            <span class="card__ico" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M4 3h16a1 1 0 011 1v15a2 2 0 01-2 2H5a2 2 0 01-2-2V4a1 1 0 011-1zm1 2v14h14V5H5zm2 2h4v10H7V7zm6 0h4v4h-4V7zm0 6h4v4h-4v-4z"/></svg>
-            </span>
-          </div>
-          <h3>Refrigeración comercial</h3>
-          <p>Heladeras mostrador, exhibidoras y equipos de frío para kioscos, carnicerías y bares.</p>
-          <ul class="card__list">
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20exhibidora%20dej%C3%B3%20de%20dar%20fr%C3%ADo." target="_blank" rel="noopener" data-cta="sintoma">La exhibidora dejó de dar frío</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20mi%20mostrador%20transpira%20o%20gotea." target="_blank" rel="noopener" data-cta="sintoma">El mostrador transpira o gotea</a></li>
-            <li><a href="https://wa.me/5491170332439?text=Hola%2C%20necesito%20un%20service%20preventivo%20antes%20del%20verano." target="_blank" rel="noopener" data-cta="sintoma">Service preventivo antes del verano</a></li>
-          </ul>
-          <p class="card__note"><strong>Si tu equipo para, parás de vender.</strong> Las urgencias de comercio van primero.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- COMO TRABAJAMOS -->
-  <section class="section section--alt" id="como">
+  <!-- NUESTROS SERVICIOS -->
+  <section class="svc" id="servicios">
     <div class="wrap">
       <header class="shead">
-        <p class="eyebrow"><span class="dot"></span> Sin sorpresas</p>
-        <h2>Cómo trabajamos</h2>
+        <p class="eyebrow"><span class="dot"></span> Cómo trabajamos</p>
+        <h2>Nuestros servicios</h2>
       </header>
 
-      <ol class="steps">
-        <li>
-          <span class="steps__n">1</span>
-          <div>
-            <h3>Nos contás el problema</h3>
-            <p>Marca, modelo y qué está haciendo el equipo. Si podés, mandanos una foto o un video del ruido.</p>
-          </div>
-        </li>
-        <li>
-          <span class="steps__n">2</span>
-          <div>
-            <h3>Vamos y te presupuestamos</h3>
-            <p>Te damos día y franja horaria. Revisamos el equipo y te decimos qué tiene y cuánto sale antes de tocar nada.</p>
-          </div>
-        </li>
-        <li>
-          <span class="steps__n">3</span>
-          <div>
-            <h3>Lo reparamos con garantía</h3>
-            <p>La mayoría se resuelve en el día. Repuestos originales, factura y 90 días de garantía escrita.</p>
-          </div>
-        </li>
-      </ol>
+      <div class="svc__grid">
+        <div class="svc__item">
+          <span class="svc__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 110 20 10 10 0 010-20zm0 2a8 8 0 100 16 8 8 0 000-16zm1 3v4.6l3.5 2.1-1 1.7L11 12.7V7h2z"/></svg>
+          </span>
+          <h3>Arreglos en el día</h3>
+          <p>Realizamos diagnósticos y reparaciones en el mismo día, brindando soluciones rápidas.</p>
+        </div>
+        <div class="svc__item">
+          <span class="svc__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3l9 7.5-1.3 1.5L18 10.6V20a1 1 0 01-1 1h-4v-6h-2v6H7a1 1 0 01-1-1v-9.4L4.3 12 3 10.5 12 3z"/></svg>
+          </span>
+          <h3>Servicio a domicilio</h3>
+          <p>Nos trasladamos a tu domicilio para mayor comodidad y garantía.</p>
+        </div>
+        <div class="svc__item">
+          <span class="svc__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 2h6a1 1 0 011 1v1h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2V3a1 1 0 011-1zm1 2v2h4V4h-4zm5.3 6.3l-4.3 4.3-2.3-2.3-1.4 1.4 3.7 3.7 5.7-5.7-1.4-1.4z"/></svg>
+          </span>
+          <h3>Garantía escrita</h3>
+          <p>Te ofrecemos garantía escrita por 90 días en todas nuestras reparaciones, respaldando la calidad del servicio.</p>
+        </div>
+        <div class="svc__item">
+          <span class="svc__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M19.4 13a7.6 7.6 0 000-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 00-1.7-1L15 3.3h-4l-.4 2.6a7.4 7.4 0 00-1.7 1l-2.5-1-2 3.5L6.6 11a7.6 7.6 0 000 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 001.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 001.7-1l2.5 1 2-3.5L19.4 13zM13 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z"/></svg>
+          </span>
+          <h3>Repuestos originales</h3>
+          <p>Trabajamos exclusivamente con repuestos originales y nacionales, asegurando durabilidad y funcionamiento.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ZONAS -->
-  <section class="section" id="zonas">
-    <div class="wrap">
-      <header class="shead">
-        <p class="eyebrow"><span class="dot"></span> A domicilio</p>
-        <h2>Dónde trabajamos</h2>
-        <p class="shead__sub">Base en Villa Udaondo, Ituzaingó. Salimos todos los días a <strong>CABA, Zona Oeste y Zona Sur</strong>.</p>
-      </header>
+  <!-- MARCAS Y MEDIOS DE PAGO -->
+  <section class="section" id="marcas">
+    <div class="wrap brands">
+      <div class="brands__copy">
+        <header class="shead">
+          <p class="eyebrow"><span class="dot"></span> Todas las marcas</p>
+          <h2>Trabajamos con todas las marcas</h2>
+          <p class="shead__sub">Nacionales e importadas. Estas son algunas de las que más reparamos.</p>
+        </header>
 
-      <ul class="tags">
-        <li>Ituzaingó</li><li>Castelar</li><li>Morón</li><li>Haedo</li><li>Ramos Mejía</li>
-        <li>El Palomar</li><li>Hurlingham</li><li>San Antonio de Padua</li><li>Merlo</li>
-        <li>Liniers</li><li>Mataderos</li><li>Villa Devoto</li><li>Flores</li>
-        <li>Lomas de Zamora</li><li>Lanús</li>
-      </ul>
-      <p class="zonas__note">¿No ves tu barrio? Escribinos igual: si estamos cerca, vamos.</p>
+        <div class="pay">
+          <h3>Medios de pago</h3>
+          <ul class="pay__list">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h20v12H2V6zm2 2v8h16V8H4zm8 1.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM5 9h2v2H5V9zm12 4h2v2h-2v-2z"/></svg>
+              Efectivo
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l10 5v2H2V7l10-5zm-7 9h2v7H5v-7zm4 0h2v7H9v-7zm4 0h2v7h-2v-7zm4 0h2v7h-2v-7zM2 20h20v2H2v-2z"/></svg>
+              Transferencia
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <figure class="brands__panel">
+        <img src="assets/marcas.webp" alt="Algunas de las marcas que reparamos: LG, Electrolux, Drean, Gafa, Whirlpool, Samsung, General Electric, Patrick, Philco, BGH y Candy" width="1200" height="800" loading="lazy">
+      </figure>
     </div>
   </section>
 
-  <!-- TRABAJOS -->
+  <!-- TRABAJOS REALIZADOS -->
   <section class="section section--alt" id="trabajos">
     <div class="wrap">
       <header class="shead">
         <p class="eyebrow"><span class="dot"></span> Trabajos reales</p>
-        <h2>Lo que hacemos todos los días</h2>
+        <h2>Trabajos realizados</h2>
       </header>
 
       <div class="gallery">
-        <figure><img src="assets/heladera-compresor.webp" alt="Técnico reparando el sistema de frío de una heladera" width="480" height="640" loading="lazy"><figcaption>Heladera · sistema de frío</figcaption></figure>
         <figure><img src="assets/lavarropas.webp" alt="Reparación de lavarropas a domicilio" width="579" height="640" loading="lazy"><figcaption>Lavarropas · a domicilio</figcaption></figure>
         <figure><img src="assets/heladera-mostrador.webp" alt="Heladera mostrador exhibidora reparada para un comercio" width="532" height="640" loading="lazy"><figcaption>Comercio · heladera mostrador</figcaption></figure>
-        <figure><img src="assets/uniforme.webp" alt="Técnico de Service Ciro con el uniforme de la empresa" width="480" height="600" loading="lazy"><figcaption>Vamos identificados</figcaption></figure>
+        <figure><img src="assets/soldadura-vacio.webp" alt="Soldadura de cañería con bomba de vacío durante una reparación de heladera" width="640" height="640" loading="lazy"><figcaption>Heladera · soldadura y vacío</figcaption></figure>
+        <figure><img src="assets/condensador.webp" alt="Trabajo sobre el condensador de una heladera" width="360" height="640" loading="lazy"><figcaption>Heladera · sistema de frío</figcaption></figure>
       </div>
 
       <p class="gallery__cta">
@@ -323,8 +303,26 @@
     </div>
   </section>
 
+  <!-- ZONAS -->
+  <section class="section" id="zonas">
+    <div class="wrap">
+      <header class="shead">
+        <p class="eyebrow"><span class="dot"></span> A domicilio</p>
+        <h2>Trabajamos en todas las zonas</h2>
+        <p class="shead__sub">Abarcamos <strong>Zona Oeste y CABA</strong>, con base en Villa Udaondo, Ituzaingó.</p>
+      </header>
+
+      <ul class="tags">
+        <li>Ituzaingó</li><li>Castelar</li><li>Morón</li><li>Haedo</li><li>Ramos Mejía</li>
+        <li>El Palomar</li><li>Hurlingham</li><li>San Antonio de Padua</li><li>Merlo</li>
+        <li>Liniers</li><li>Mataderos</li><li>Villa Devoto</li><li>Flores</li>
+      </ul>
+      <p class="zonas__note">¿No ves tu barrio? Escribinos igual: si estamos cerca, vamos.</p>
+    </div>
+  </section>
+
   <!-- FAQ -->
-  <section class="section" id="faq">
+  <section class="section section--alt" id="faq">
     <div class="wrap wrap--narrow">
       <header class="shead">
         <p class="eyebrow"><span class="dot"></span> Preguntas frecuentes</p>
@@ -333,24 +331,22 @@
 
       <div class="faq">
         <details>
-          <summary>¿Cuánto sale la visita?</summary>
-          <p>La consulta por WhatsApp no tiene costo: contanos el síntoma y te orientamos. El valor de la visita con diagnóstico te lo confirmamos antes de coordinar, y si hacés la reparación con nosotros se descuenta del trabajo.</p>
+          <summary>¿Cuánto cuesta la visita técnica?</summary>
+          <p>La consulta inicial por WhatsApp es sin costo. Podés contarnos qué inconveniente presenta el equipo y te brindaremos una primera orientación.</p>
+          <p>El presupuesto es sin cargo y el valor de la visita técnica se establece según la zona. Antes de coordinar el servicio, te informamos previamente el costo correspondiente.</p>
+          <p>Si decidís realizar la reparación con nosotros, el valor de la visita se descuenta del costo total de la reparación.</p>
         </details>
         <details>
-          <summary>¿Reparan mi marca?</summary>
-          <p>Sí. Todas las marcas de heladeras, aires, lavarropas y lavavajillas, nacionales e importadas. No somos servicio oficial de ninguna, y por eso podemos repararlas todas.</p>
+          <summary>¿Reparan todas las marcas?</summary>
+          <p>Sí. Trabajamos con todas las marcas de heladeras, aires acondicionados y lavarropas, tanto nacionales como importadas.</p>
         </details>
         <details>
-          <summary>¿Se puede resolver en el mismo día?</summary>
-          <p>La mayoría sí, porque llevamos los repuestos de uso más común en el vehículo. Si hace falta un repuesto especial lo pedimos y volvemos apenas llega.</p>
+          <summary>¿Venden repuestos por separado?</summary>
+          <p>No, nuestro servicio está orientado a la reparación integral del equipo. El repuesto necesario se incluye en el trabajo, con su correspondiente garantía.</p>
         </details>
         <details>
-          <summary>¿Venden repuestos sueltos?</summary>
-          <p>No. Somos servicio técnico: hacemos la reparación completa con el repuesto incluido y garantizado. No vendemos repuestos por separado.</p>
-        </details>
-        <details>
-          <summary>¿Hacen factura?</summary>
-          <p>Sí, emitimos comprobante por cada trabajo. También atendemos comercios y empresas con mantenimiento programado de equipos de frío.</p>
+          <summary>¿Emiten factura?</summary>
+          <p>Sí, emitimos comprobante por cada trabajo realizado.</p>
         </details>
       </div>
     </div>
@@ -366,9 +362,12 @@
 
         <ul class="contact__list">
           <li>
-            <strong>Teléfono / WhatsApp</strong>
-            <a class="contact__phone" href="tel:+5491170332439">11 7033-2439</a>
-            <a class="contact__phone" href="tel:+5491128724860">11 2872-4860</a>
+            <strong>WhatsApp</strong>
+            <a class="contact__phone" href="https://wa.me/5491128724860?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener" data-cta="contacto-wa">11 2872-4860</a>
+          </li>
+          <li>
+            <strong>Llamadas</strong>
+            <a class="contact__phone" href="tel:+5491170332439" data-cta="contacto-tel">11 7033-2439</a>
           </li>
           <li>
             <strong>Horarios</strong>
@@ -384,6 +383,8 @@
             <a href="https://www.instagram.com/serviciotecnico_ciro" target="_blank" rel="noopener">@serviciotecnico_ciro</a>
           </li>
         </ul>
+
+        <iframe class="map" title="Ubicación de Service Ciro en Villa Udaondo, Ituzaingó" src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sFederico+Garc%C3%ADa+Lorca+4175,+Villa+Udaondo,+Ituzaing%C3%B3,+Buenos+Aires!6i15" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <form class="form" id="form" novalidate>
@@ -403,11 +404,10 @@
           <label for="f-equipo">¿Qué equipo es?</label>
           <select id="f-equipo" name="equipo" required>
             <option value="">Elegí una opción</option>
-            <option>Heladera / freezer</option>
+            <option>Heladera</option>
+            <option>Lavarropas</option>
             <option>Aire acondicionado</option>
-            <option>Lavarropas / secarropas</option>
-            <option>Lavavajillas</option>
-            <option>Equipo de frío comercial</option>
+            <option>Heladera mostrador o exhibidora</option>
             <option>Otro</option>
           </select>
         </div>
@@ -431,12 +431,12 @@
       <img src="assets/logo.webp" alt="" width="46" height="46" loading="lazy">
       <div>
         <strong>Service Ciro</strong>
-        <span>Heladeras, aires acondicionados, lavarropas y lavavajillas. CABA, Zona Oeste y Zona Sur.</span>
+        <span>Servicio a domicilio de refrigeración: heladeras, lavarropas y aires acondicionados. CABA y Zona Oeste.</span>
       </div>
     </div>
     <div class="footer__contact">
-      <a href="tel:+5491170332439">11 7033-2439</a>
-      <a href="tel:+5491128724860">11 2872-4860</a>
+      <span>WhatsApp <a href="https://wa.me/5491128724860" target="_blank" rel="noopener">11 2872-4860</a></span>
+      <span>Llamadas <a href="tel:+5491170332439">11 7033-2439</a></span>
       <span>Villa Udaondo, Ituzaingó · Bs. As.</span>
     </div>
   </div>
@@ -446,7 +446,7 @@
   </div>
 </footer>
 
-<a class="fab" href="https://wa.me/5491170332439?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp" data-cta="fab">
+<a class="fab" href="https://wa.me/5491128724860?text=Hola%2C%20necesito%20servicio%20t%C3%A9cnico" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp" data-cta="fab">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.6 14.1c-.24.67-1.4 1.28-1.94 1.32-.5.04-.98.22-3.3-.69-2.78-1.1-4.55-3.94-4.69-4.13-.13-.19-1.12-1.49-1.12-2.84s.71-2.01.96-2.29a1 1 0 01.73-.34h.52c.17 0 .4-.06.62.48.24.58.8 2 .87 2.14.07.14.12.31.02.5-.1.19-.15.31-.29.47l-.44.51c-.14.14-.29.3-.13.59.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.42.28.14.45.12.62-.07.17-.19.71-.83.9-1.12.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.21.55.33.07.11.07.67-.17 1.34z"/></svg>
   <span>WhatsApp</span>
 </a>

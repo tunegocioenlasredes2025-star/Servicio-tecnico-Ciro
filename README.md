@@ -22,11 +22,13 @@ web/
 |---|---|
 | Nombre comercial "Service Ciro" y los 3 rubros | `<title>` del dominio actual (serviceciro.com.ar, quedó en "Coming soon") |
 | Logo | CDN de la web vieja (`assets.zyrosite.com`) |
-| Teléfonos 11 7033-2439 y 11 2872-4860 | placas del Instagram + uniforme del técnico + ficha de Google/Bing |
+| **WhatsApp 11 2872-4860 · llamadas 11 7033-2439** | documento de correcciones del cliente (09/09/2026) |
 | Dirección y horarios | ficha de Google Business (Villa Udaondo, Ituzaingó) |
-| Zonas (CABA / Oeste / Sur) | bio de @serviciotecnico_ciro |
+| Zonas: **solo Zona Oeste y CABA** | documento del cliente (pidió sacar Lomas de Zamora y Lanús) |
 | Garantía escrita 90 días, repuestos originales | contenido indexado de la web anterior |
-| Servicios, síntomas, tono | posts y placas del Instagram |
+| Textos de rubros, "Nuestros servicios" y FAQ | documento del cliente, **copiados literal** |
+| Fotos del hero, productos y logos de marcas | documento del cliente (`assets/cliente-2026-09-09/`) |
+| Síntomas y tono | posts y placas del Instagram |
 | 20 años de oficio, 3 técnicos, factura, estacionalidad del aire | audios del cliente |
 
 ## Decisiones de contenido
@@ -60,25 +62,36 @@ web/
   cualquier otro servicio técnico.
 - Todas las fotos son trabajos reales del Instagram. Cero banco de imágenes.
 
-## Pendientes antes de publicar
+## Correcciones del cliente — aplicadas el 11/09/2026
 
-1. **Confirmar los teléfonos con Ciro.** El 11 7033-2439 aparece en tres fuentes, el
-   11 2872-4860 en las placas nuevas. Si alguno ya no se usa, sacarlo de `index.html`
-   (aparece en header, hero, contacto, footer, botón flotante y en el JSON-LD).
-2. **Confirmar las zonas.** La bio de Instagram dice *CABA, Zona Oeste y Zona Sur*, pero
-   las placas viejas decían *Zona Norte*. Está cargado Sur. El listado de localidades de
-   `#zonas` es una propuesta: hay que validarlo con él y borrar las que no cubra.
-3. **Confirmar la dirección pública.** Está la de Google Business (Federico García Lorca
-   4175). Si trabaja desde su casa y no quiere publicarla, se saca de `#zonas`, del footer
-   y del bloque `PostalAddress` del JSON-LD, y se deja sólo "Villa Udaondo, Ituzaingó".
-4. **Política de la visita.** La FAQ dice que el costo de la visita se descuenta si se hace
-   la reparación. Confirmar que trabaja así.
-5. **Email de contacto:** no lo tenemos. Si quiere, se agrega en `#contacto` y en el JSON-LD.
+La hija de Claudio mandó un Google Doc con cambios y un video de la web anterior (el video
+muestra el **orden** de la información, no un estilo a copiar). Quedó aplicado:
+
+- Hero con **tres fotos de trabajos en alta** (las mandó ellos) en lugar del logo solo.
+  Título *Servicio técnico Ciro* + *Servicio a domicilio de refrigeración*.
+- Orden de secciones del documento: Reparamos → Nuestros servicios → Marcas y medios de
+  pago → Trabajos realizados → Zonas → FAQ → Contacto con mapa.
+- **WhatsApp al 11 2872-4860 y llamadas al 11 7033-2439.** Todos los `wa.me`, el botón
+  flotante, el formulario (`WHATSAPP` en `js/main.js`) y el `contactPoint` del JSON-LD.
+- Zonas: solo Zona Oeste y CABA. Fuera Zona Sur, Lomas de Zamora y Lanús (también del
+  JSON-LD y las metas).
+- **Sin lavavajillas**: el cliente enumera tres rubros en todo el documento.
+- Los textos de los tres rubros, de los cuatro servicios y del FAQ son **los suyos, literal**.
+- Se sacó la sección "Cómo trabajamos" (no está en su estructura; "Nuestros servicios" la cubre).
+
+## Pendientes
+
+1. **Confirmar con ellos dos decisiones propias**: la *refrigeración comercial* quedó como
+   un síntoma dentro de Heladeras (no la mencionan, pero hay trabajos de mostradores en su
+   Instagram), y se mantiene la nota *"Reservá antes de noviembre"* en Aire.
+2. **Email de contacto** (opcional).
+3. **Apuntar el dominio** (ver abajo).
 
 ## Publicación
 
-El dominio **serviceciro.com.ar** ya está pagado y hoy apunta a Hostinger (quedó una
-página de "Coming soon" del proveedor anterior). Para publicar:
+El dominio **serviceciro.com.ar** usa los nameservers de Hostinger
+(`ns1/ns2.dns-parking.com`), así que **la zona DNS se edita en el panel de Hostinger**, no
+en NIC.ar. El sitio sigue en Vercel (gratis): de Hostinger solo hace falta el DNS.
 
 1. Subir la carpeta `web/` a GitHub y conectarla a Vercel (deploy estático, sin build).
 2. En el panel del dominio, apuntar los DNS a Vercel siguiendo el protocolo habitual
