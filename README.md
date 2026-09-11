@@ -35,10 +35,10 @@ web/
 
 - **Es servicio técnico, NO venta de repuestos.** Fue el error que le hizo perder plata con
   la CM anterior. Hay una FAQ explícita que lo aclara ("¿Venden repuestos sueltos?" → No).
-- **Nada de copy genérico de servicio técnico.** El hero nombra las herramientas reales
-  (bomba de vacío, soldador), la barra de confianza son cuatro promesas concretas en vez de
-  números sueltos, y cada card de servicio lista los síntomas tal como los describe el
-  cliente ("saca la ropa empapada", "el motor no para nunca"), no categorías abstractas.
+- **El hero usa la frase del cliente** (*"Contamos con repuestos y herramientas para resolver la
+  reparación de forma rápida y eficiente en el domicilio"*), y cada card de servicio lista los
+  síntomas tal como los describe la gente ("saca la ropa empapada", "el motor no para nunca").
+  Cada lista termina en **"Otra falla"**: los síntomas son ejemplos, reparan cualquier otra.
 - **Los síntomas están dentro de cada servicio, no en una sección aparte.** El cliente que
   llega de Google Ads busca por problema ("mi heladera no enfría"), no por servicio, así que
   cada síntoma es un enlace que abre WhatsApp con el mensaje ya escrito → se sabe por qué

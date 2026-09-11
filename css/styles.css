@@ -309,6 +309,9 @@ p:last-child{margin-bottom:0;}
 }
 .card__list a:hover{color:var(--white);padding-left:.5rem;}
 .card__list a:hover::after{border-color:var(--amber-400);}
+/* la opción "otra falla" cierra cada lista: aclara que los síntomas son solo ejemplos */
+.card__list a.card__other{color:var(--ice-300);font-style:italic;}
+.card__list a.card__other::before{background:transparent;border:1.5px solid var(--ice-300);}
 
 .card__note{
   padding-top:.2rem;
