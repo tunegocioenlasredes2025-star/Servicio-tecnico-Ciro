@@ -9,6 +9,27 @@
   var WHATSAPP = '5491170332439';
   var WHATSAPP_AIRE = '5491128724860';
 
+  /* ---------- conversiones de Google Ads ----------
+     Cada contacto (WhatsApp, llamada, sintoma o formulario) se avisa como
+     conversion. El Instagram no cuenta: no es un pedido de servicio. */
+  var CONVERSION = 'AW-688710802/kha2CJPsk_kcEJLJs8gC';
+
+  var track = function () {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'conversion', {
+      'send_to': CONVERSION,
+      'value': 1.0,
+      'currency': 'ARS'
+    });
+  };
+
+  document.addEventListener('click', function (e) {
+    var cta = e.target.closest && e.target.closest('[data-cta]');
+    if (!cta) return;
+    if (cta.getAttribute('data-cta') === 'instagram') return;
+    track();
+  });
+
   /* ---------- año del footer ---------- */
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
@@ -111,6 +132,7 @@
       'Problema: ' + form.elements.detalle.value.trim();
 
     var destino = form.elements.equipo.value === 'Aire acondicionado' ? WHATSAPP_AIRE : WHATSAPP;
+    track();
     window.open('https://wa.me/' + destino + '?text=' + encodeURIComponent(texto), '_blank', 'noopener');
   });
 })();
