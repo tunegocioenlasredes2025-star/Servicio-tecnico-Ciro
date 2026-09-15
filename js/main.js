@@ -4,8 +4,10 @@
 (function () {
   'use strict';
 
-  // WhatsApp va al 11 2872-4860; las llamadas, al 11 7033-2439
-  var WHATSAPP = '5491128724860';
+  // WhatsApp general al 11 7033-2439 (consultas y presupuestos);
+  // lo de aire acondicionado va al 11 2872-4860, que atiende las llamadas
+  var WHATSAPP = '5491170332439';
+  var WHATSAPP_AIRE = '5491128724860';
 
   /* ---------- año del footer ---------- */
   var year = document.getElementById('year');
@@ -108,6 +110,7 @@
       'Equipo: ' + form.elements.equipo.value + '\n' +
       'Problema: ' + form.elements.detalle.value.trim();
 
-    window.open('https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+    var destino = form.elements.equipo.value === 'Aire acondicionado' ? WHATSAPP_AIRE : WHATSAPP;
+    window.open('https://wa.me/' + destino + '?text=' + encodeURIComponent(texto), '_blank', 'noopener');
   });
 })();

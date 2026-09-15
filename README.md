@@ -22,7 +22,7 @@ web/
 |---|---|
 | Nombre comercial "Service Ciro" y los 3 rubros | `<title>` del dominio actual (serviceciro.com.ar, quedó en "Coming soon") |
 | Logo | CDN de la web vieja (`assets.zyrosite.com`) |
-| **WhatsApp 11 2872-4860 · llamadas 11 7033-2439** | documento de correcciones del cliente (09/09/2026) |
+| **Llamadas 11 2872-4860 · WhatsApp 11 7033-2439 · aire acondicionado (WhatsApp y form) 11 2872-4860** | audios y mensajes de Claudio (15/09/2026), pisan lo del documento del 09/09 |
 | Dirección y horarios | ficha de Google Business (Villa Udaondo, Ituzaingó) |
 | Zonas: **solo Zona Oeste y CABA** | documento del cliente (pidió sacar Lomas de Zamora y Lanús) |
 | Garantía escrita 90 días, repuestos originales | contenido indexado de la web anterior |
